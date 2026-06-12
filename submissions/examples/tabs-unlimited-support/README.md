@@ -14,3 +14,5 @@ How to test locally:
 2. The demo includes the enhancement script inlined — you can interact with 6, 12 and 25 tab examples.
 
 If maintainers want to adopt the change into core, the script in `demo.html` contains the exact enhancer that can be moved into `core/tabs.js` and the accompanying CSS adjustments are documented inline.
+
+Validation note: this PR intentionally keeps all changes inside `submissions/examples/tabs-unlimited-support/` so it passes the repository submission checks without touching protected core files.
